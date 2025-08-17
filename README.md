@@ -1,6 +1,6 @@
 # Ansible DevOps Foundations
 
-**Automating infrastructure the DevOps way** demonstrating core DevOps skills.
+**Automating infrastructure the DevOps way** : demonstrating core DevOps skills.
 
 ## What's Here  
 1. [Apache WebServer setup] (apache-basic) - Installs Apache in 4 commands 
@@ -25,5 +25,6 @@
 - cd apache_basic
 
 - ansible-playbook install_apache.yml -i inventory.ini
+
 
 
