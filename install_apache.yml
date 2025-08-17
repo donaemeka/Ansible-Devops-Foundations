@@ -1,0 +1,16 @@
+---
+- name: Install and manage Apache server
+  hosts: all
+  become: yes
+  tasks:  
+    - name: Install Apache2 package
+      ansible.builtin.apt:  
+        name: apache2 
+        state: present
+        update_cache: yes
+
+    - name: Start and enable Apache2 service
+      ansible.builtin.service: 
+        name: apache2  
+        state: started  
+        enabled: yes
