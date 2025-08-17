@@ -25,3 +25,4 @@
 - cd apache_basic
 
 - ansible-playbook install_apache.yml -i inventory.ini
+
